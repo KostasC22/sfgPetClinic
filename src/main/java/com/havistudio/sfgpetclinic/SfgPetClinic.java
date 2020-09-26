@@ -1,4 +1,4 @@
-package com.havistudio.sfgdi;
+package com.havistudio.sfgpetclinic;
 
 
 import org.springframework.boot.SpringApplication;
