@@ -1,11 +1,11 @@
 package com.havistudio.sfgpetclinic.services.map;
 
 import com.havistudio.sfgpetclinic.model.Vet;
-import com.havistudio.sfgpetclinic.services.CrudService;
+import com.havistudio.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
